@@ -7,13 +7,13 @@ import './Header.css';
 export default function Header() {
   return (
     <>
-      <Navbar collapseOnSelect expand='md' bg="light" variant="light" data-bs-theme="light">
+      <Navbar collapseOnSelect expand='md' className='header-navbar-background' variant="light" data-bs-theme="light">
         <Container>
           <Navbar.Brand href="/">
             <img
               alt=""
               src="/assets/Logo/logo.png"
-              width="120"
+              width="150"
               className="d-inline-block align-top"
             />
           </Navbar.Brand>
@@ -28,7 +28,7 @@ export default function Header() {
                 <img
                   alt=""
                   src="/assets/Logo/logo.png"
-                  width="120"
+                  width="150"
                   className="d-inline-block align-top"
                 />
                 </Offcanvas.Title>

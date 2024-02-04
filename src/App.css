@@ -1,3 +1,14 @@
+:root {
+    --bg-orange: #F58220;
+    --bg-orange-light: #f7a55e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
