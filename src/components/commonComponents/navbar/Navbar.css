@@ -66,6 +66,7 @@ nav .menu span {
 @media (max-width: 480px) {
     nav .menu {
         display: flex;
+        cursor: pointer;
     }
 
     nav {
