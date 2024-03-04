@@ -1,0 +1,59 @@
+.about-us-hero-section {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    transition: background-image 1s ease-in-out;
+  }
+
+  .about-us-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-us-hero-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-wrap:wrap;
+  }
+
+  .about-us-staff-content{
+    text-align: center;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .about-us-staff-heading{
+    text-align:left;
+    max-width: 80%;
+    margin-left: 10%;
+  }
+
+  .about-us-clients-heading{
+    margin-top: 3rem;
+    text-align:left;
+    max-width: 80%;
+    margin-left: 10%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .about-us-hero-section-content {
+      padding: 10px; /* Adjust padding to create space between content and header */
+    }
+    .about-us-hero-section-paragraph{
+      font-size: 0.3rem;
+      /* display: none; */
+    }
+  }
+  
