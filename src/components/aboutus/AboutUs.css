@@ -1,6 +1,6 @@
 .about-us-hero-section {
     width: 100%;
-    height: 50vh;
+    height: auto;
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat;
@@ -14,30 +14,44 @@
     align-items: center;
   }
 
-  .about-us-hero-section-content{
+  .about-us-image-container img{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .about-us-hero-section-heading{
+    color: var(--bg-white-text-clr);
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 20px;
+  }
+
+  .about-us-hero-section-content-inner-wrapper{
     display: flex;
     flex-direction: column;
-    justify-content:end;
     align-items: center;
-    width: 100vw;
-    height: 40vh;
-    max-width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-wrap:wrap;
+    padding: 50px;
+  }
+
+  .about-us-hero-section-paragraph{
+    text-align: justify;
+    color: var(--bg-white-text-clr);
+    word-wrap: break-word;
+    font-size: 1rem;
+    padding-bottom: 10px;
   }
 
   .about-us-staff-content{
-    text-align: center;
-    max-width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    text-align: justify;
   }
 
   .about-us-staff-heading{
-    text-align:left;
-    max-width: 80%;
-    margin-left: 10%;
+    font-weight: bolder;
+  }
+
+  .about-us-staff-intro-section{
+    border: 2px solid black;
+    border-radius: 10px;
   }
 
   .about-us-clients-heading{
@@ -47,13 +61,67 @@
     margin-left: 10%;
   }
 
+  .about-us-largest-to-be-text-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-us-content-section{
+    padding: 40px;
+  }
+
+  .about-us-content-section-heading-common{
+    font-weight: bolder;
+  }
+
+  .about-us-content-section-paragraph-common{
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+
+  .about-us-staff-intro-section-inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .about-us-staff-heading-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .about-us-staff-intro-section-inner-container-left{
+    width: 50%;
+    padding: 10px;
+  }
+
+  .about-us-staff-intro-section-inner-container-right{
+    width: 50%;
+    padding: 10px;
+  }
+
+  .about-us-image-container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
   @media screen and (max-width: 768px) {
-    .about-us-hero-section-content {
-      padding: 10px; /* Adjust padding to create space between content and header */
+    .about-us-staff-intro-section-inner-container{
+      flex-direction: column;
     }
-    .about-us-hero-section-paragraph{
-      font-size: 0.3rem;
-      /* display: none; */
+
+    .about-us-staff-content{
+      display: none;
     }
   }
   

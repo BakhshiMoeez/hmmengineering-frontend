@@ -64,6 +64,10 @@ nav .menu span {
 
 
 @media (max-width: 480px) {
+    .navbar-main-container{
+        padding: 10px;
+    }
+
     nav .menu {
         display: flex;
         cursor: pointer;
