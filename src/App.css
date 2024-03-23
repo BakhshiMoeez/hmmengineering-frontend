@@ -1,7 +1,14 @@
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--bg-orange);
+}
+
 :root {
-    --bg-orange: #f58220;
+    /* --bg-orange: white; */
+    --bg-orange: #222222;
+    --bg-orange-pri: #f58220;
     --bg-orange-light: #f7a55e;
-    --bg-white-text-clr: #ffffff;
+    --bg-white-text-clr: white;
+    --bg-electric-blue:   #c0c0c0 ;
 }
 
 *{

@@ -8,6 +8,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import './Footer.css';
 
 export default function Footer() {
+  const iconColor = "#f58220";
   return (
     <>
       <div className="footer-main-container">
@@ -34,7 +35,7 @@ export default function Footer() {
                   
                   <div className="footer-right-section-content-sub-main-container-item">
                     <span className='footer-right-content-item-icon'>
-                      <LocationOnIcon style={{color: 'white'}}/>
+                      <LocationOnIcon style={{color: iconColor}}/>
                     </span>
                     <span className='footer-right-content-item-content'>
                       <p>Do moriya pul</p>
@@ -43,7 +44,7 @@ export default function Footer() {
 
                   <div className="footer-right-section-content-sub-main-container-item">
                     <span className='footer-right-content-item-icon'>
-                      <LocalPhoneIcon style={{color: 'white'}}/>
+                      <LocalPhoneIcon style={{color: iconColor}}/>
                     </span>
                     <span className='footer-right-content-item-content'>
                       <p>0321-1234567</p>
@@ -52,7 +53,7 @@ export default function Footer() {
 
                   <div className="footer-right-section-content-sub-main-container-item">
                     <span className='footer-right-content-item-icon'>
-                      <WhatsAppIcon style={{color: 'white'}}/>
+                      <WhatsAppIcon style={{color: iconColor}}/>
                     </span>
                     <span className='footer-right-content-item-content'>
                       <p>0321-1234567</p>

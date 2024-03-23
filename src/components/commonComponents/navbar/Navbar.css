@@ -1,5 +1,5 @@
 .active{
-    background-color: var(--bg-orange-light);
+    background-color: var(--bg-electric-blue);
 }
 
 .navbar-main-container{
@@ -10,7 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: var(--bg-white-text-clr);
     height: 100%;
     position: sticky;
     top: 0;
@@ -20,7 +20,7 @@ nav .title {
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: var(--bg-white-text-clr);
 }
 
 nav ul {
@@ -36,12 +36,12 @@ nav ul li {
 nav ul li a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: var(--bg-white-text-clr);
     padding: 1rem;
 }
 
 nav ul li a:not(.active):hover {
-    background-color: var(--bg-orange-light);
+    background-color: var(--bg-electric-blue);
 }
 
 nav .menu {

@@ -4,7 +4,7 @@ h1, p{
 
 .footer-main-container{
     background-color: var(--bg-orange);
-    color: white;
+    color: var(--bg-white-text-clr);
 }
 
 .footer-sub-main-container{
@@ -33,10 +33,11 @@ h1, p{
 
 .footer-right-content-item-content p{
     margin: 0;
+    color: var(--bg-white-text-clr);
 }
 
 .footer-social-media-icon a{
-    color: white;
+    color: var(--bg-white-text-clr);
     text-decoration: none;
 }
 
